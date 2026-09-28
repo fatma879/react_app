@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <>
+    <React.Fragment>
       <div className="App">
 
         <Navbar bg="dark" variant="dark">
@@ -67,7 +67,7 @@ function App() {
         </Container>
 
       </div>
-    </>
+    </React.Fragment>
   );
 }
 
